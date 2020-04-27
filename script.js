@@ -4,10 +4,10 @@ var names=["yaakov","john","jen","Jason","paul","frank","larry","paula","laura",
 for (var i=0;i<names.length;i++){
 	var firstletter=names[i].charAt(0).toLowerCase();
 		if (firstletter==="j") {
-			helloSpeaker.speak(names[i]);
+			byeSpeaker.speak(names[i]);
 	 	} 
 	    else {
-	   		byeSpeaker.speak(names[i]);
+	   		helloSpeaker.speak(names[i]);
 	  	}
 	}
 })();
